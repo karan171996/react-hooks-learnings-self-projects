@@ -1,0 +1,34 @@
+.parentsection {
+  column-count: 4;
+  column-gap: 16px;
+  padding: 30px;
+}
+
+@media (max-width: 1200px) {
+  .parentsection {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 992px) {
+  .parentsection {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .parentsection {
+    column-count: 1;
+  }
+}
+
+.parentsection .grid {
+  display: inline-block;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.parentsection .grid img {
+  width: 100%;
+  border-radius: 5px;
+}
